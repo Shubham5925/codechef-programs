@@ -1,0 +1,23 @@
+# codechef-programs
+#include <stdio.h>
+
+int main(void)
+{
+        int t,a,b;
+        scanf("%d\n",&t);
+        if(t>=1 && t<=100)
+        {
+                for(int i=1;i<=t;i++)
+                {
+                        scanf("%d %d\n",&a,&b);
+                        if(a>=1 && b<=10)
+                        {
+                                printf("%d\n",a+b);
+                        }
+                
+                }
+        }
+	//your code is here
+	return 0;
+}
+
