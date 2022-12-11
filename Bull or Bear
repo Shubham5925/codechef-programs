@@ -1,0 +1,25 @@
+# codechef-programs
+#include <stdio.h>
+
+int main(void) 
+{
+        int t,x,y;
+        scanf("%d\n",&t);
+        if(t>=1 && t<=500)
+        {
+                for(int i=1;i<=t;i++)
+                {
+                        scanf("%d %d\n",&x,&y);
+                        if(x>=1 && y<=100)
+                        {
+                                if(x>y)
+                                        printf("LOSS\n");
+                                else if(x==y)
+                                        printf("NEUTRAL\n");
+                                else 
+                                        printf("PROFIT\n");
+                        }
+                }
+        }
+}
+
