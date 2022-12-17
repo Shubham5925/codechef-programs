@@ -1,0 +1,29 @@
+# codechef-programs
+#include <stdio.h>
+
+int main(void) 
+{
+    int t,x;
+    scanf("%d\n",&t);
+    if(t>=1 && t<=20)
+    {
+        for(int i=1;i<=t;i++)
+        {
+            scanf("%d",&x);
+            if(x>=1 && x<=20)
+            {
+                if(x<3)
+                    printf("LIGHT\n");
+                else if(x>7 )
+                    printf("HEAVY\n");
+                else if(x<7 && x>=3)
+                    printf("MODERATE\n");
+                   else
+                        printf("HEAVY\n");
+            }
+        }
+    }
+	// your code goes here
+	return 0;
+}
+
